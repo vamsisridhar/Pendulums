@@ -145,19 +145,9 @@ void Sandbox::update()
 void Sandbox::render()
 {
 	/*
-	
-	l = 0.1 -> half height
-	height -> 0.2
-	
-
-	at theta = 0 -> X = 0, Y = l
-
 	(0,0) at (0, half width)
 	(0, -half width) at top left
 
-	*/
-
-	/*
 	scaling: 
 
 	Point(X, Y)
@@ -188,8 +178,6 @@ void Sandbox::render()
 
 
 
-	//render_ball_pos[0] = (W_HEIGHT * (l/0.2)) + (W_WIDTH / 2) * sin(theta[0].back());
-	//render_ball_pos[1] = (W_WIDTH / 2) * cos(theta[0].back());
 
 	
 	cv::imshow("Display Window", image);
